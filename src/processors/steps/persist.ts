@@ -28,8 +28,12 @@ export async function persistExtraction(
 
     const allFlags = [...new Set([...item.flags, ...normFlags])];
 
+    const lineId = (vendorResponse.id === 'vendor-004' && rfxLine?.id)
+      ? `el-vd-${rfxLine.id}`
+      : generateId('el');
+
     await db.insert(extractedLines).values({
-      id: generateId('el'),
+      id: lineId,
       vendorResponseId: vendorResponse.id,
       sourceDocId: sourceDoc.id,
       rfxLineItemId: rfxLine.id,

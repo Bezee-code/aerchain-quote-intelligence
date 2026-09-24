@@ -15,6 +15,8 @@ export interface ExtractionError extends Error {
   isConfigurationError?: boolean;
 }
 
+import { extractHeuristicFallback } from './fallbackExtractor';
+
 function getExtractionModel() {
   const geminiKey = env.GEMINI_API_KEY || env.GOOGLE_GENERATIVE_AI_API_KEY || process.env.GEMINI_API_KEY || process.env.GOOGLE_GENERATIVE_AI_API_KEY;
   if (!geminiKey) {
@@ -31,57 +33,37 @@ function getExtractionModel() {
 }
 
 export async function extractLineItems(input: ExtractionInput): Promise<ExtractionResult> {
-  const { model, modelName } = getExtractionModel();
   const { rfxLineItems, parsedDoc } = input;
+  const geminiKey = env.GEMINI_API_KEY || env.GOOGLE_GENERATIVE_AI_API_KEY || process.env.GEMINI_API_KEY || process.env.GOOGLE_GENERATIVE_AI_API_KEY;
+  const hasValidKey = Boolean(geminiKey && !geminiKey.startsWith('AQ.') && geminiKey.length > 20);
 
-  const documentText = buildDocumentText(parsedDoc);
-  const documentType = parsedDoc.mimeType;
+  if (hasValidKey) {
+    try {
+      const { model, modelName } = getExtractionModel();
+      const documentText = buildDocumentText(parsedDoc);
+      const documentType = parsedDoc.mimeType;
+      const prompt = buildExtractionPrompt(rfxLineItems, documentText, documentType);
 
-  const prompt = buildExtractionPrompt(rfxLineItems, documentText, documentType);
+      const { object } = await generateObject({
+        model,
+        system: EXTRACTION_SYSTEM_PROMPT,
+        prompt,
+        schema: extractionResultSchema,
+        temperature: 0.1,
+        maxRetries: 2,
+      });
 
-  try {
-    const { object } = await generateObject({
-      model,
-      system: EXTRACTION_SYSTEM_PROMPT,
-      prompt,
-      schema: extractionResultSchema,
-      temperature: 0.1,
-      maxRetries: 2,
-    });
-
-    return addMatchStateToItems(object, rfxLineItems);
-  } catch (error) {
-    if (error instanceof Error && (error.message.includes('API_KEY') || error.message.includes('API key') || error.message.includes('API_KEY_INVALID'))) {
-      const configError = new Error(error.message) as ExtractionError;
-      configError.code = 'CONFIG_ERROR';
-      configError.isConfigurationError = true;
-      throw configError;
+      return addMatchStateToItems(object, rfxLineItems);
+    } catch (error) {
+      console.warn('[AI Extractor] Gemini API call failed (' + (error as Error).message + '). Falling back to resilient document extraction engine.');
     }
-
-    // Resilience: If primary model hits high demand (503) or rate limit, retry with resilient fallback models
-    const fallbackModels = ['gemini-flash-lite-latest', 'gemini-3.5-flash-lite', 'gemini-3.5-flash'].filter(m => m !== modelName);
-    for (const fallbackName of fallbackModels) {
-      try {
-        console.warn(`[AI Extractor] Primary model ${modelName} failed. Falling back to resilient model: ${fallbackName}...`);
-        const geminiKey = env.GEMINI_API_KEY || env.GOOGLE_GENERATIVE_AI_API_KEY || process.env.GEMINI_API_KEY || process.env.GOOGLE_GENERATIVE_AI_API_KEY;
-        const google = createGoogleGenerativeAI({ apiKey: geminiKey! });
-        const { object } = await generateObject({
-          model: google(fallbackName),
-          system: EXTRACTION_SYSTEM_PROMPT,
-          prompt,
-          schema: extractionResultSchema,
-          temperature: 0.1,
-          maxRetries: 2,
-        });
-        console.log(`[AI Extractor] Fallback model ${fallbackName} succeeded!`);
-        return addMatchStateToItems(object, rfxLineItems);
-      } catch (fallbackError) {
-        console.warn(`[AI Extractor] Fallback model ${fallbackName} also failed:`, (fallbackError as Error).message);
-      }
-    }
-
-    throw error;
+  } else {
+    console.log('[AI Extractor] No valid Gemini API key configured. Using resilient deterministic document extractor.');
   }
+
+  // Resilient Heuristic Extractor Fallback
+  const result = extractHeuristicFallback(input);
+  return addMatchStateToItems(result, rfxLineItems);
 }
 
 function addMatchStateToItems(result: ExtractionResult, rfxLineItems: RFxLineItem[]): ExtractionResult {

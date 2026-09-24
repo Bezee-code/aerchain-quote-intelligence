@@ -14,7 +14,7 @@ export async function buildComparison(rfxId: string, onlyFeasible = false): Prom
     return lines.map(line => ({
       rfxLineItem: line as any,
       quotations: [],
-      cheapestVendorId: null,
+      cheapestVendorId: undefined,
     }));
   }
 

@@ -82,7 +82,7 @@ export const rawExtractedValuesSchema = z.object({
 export const normalizedValuesSchema = z.object({
   pricePerBaseUnit: z.number().nullable(),
   totalPrice: z.number().nullable(),
-  currency: z.literal('USD'),
+  currency: currencySchema,
   unit: z.string(),
   quantity: z.number(),
   terms: commercialTermsSchema.nullable(),
@@ -172,7 +172,7 @@ export const normalizedQuotationSchema = z.object({
   extractedLineId: z.string(),
   pricePerBaseUnit: z.number().nullable(),
   totalPrice: z.number().nullable(),
-  currency: z.literal('USD'),
+  currency: currencySchema,
   unit: z.string(),
   terms: commercialTermsSchema.nullable(),
   flags: z.array(flagTypeSchema),
@@ -204,7 +204,7 @@ export const splitAllocationSchema = z.object({
 export const splitResultSchema = z.object({
   allocations: z.array(splitAllocationSchema),
   totalCost: z.number(),
-  currency: z.literal('USD'),
+  currency: currencySchema,
   unallocated: z.array(z.string()),
   assumptions: z.array(z.string()),
 });

@@ -573,7 +573,7 @@ ${attachmentBase64E}
         normUnit = 'EA';
       } else if (item.id === 'li-014') {
         normPrice = null as any;
-        normUnit = 'Unit not provided';
+        normUnit = 'Unit not provided' as any;
       }
 
       groundTruthData.push({

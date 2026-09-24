@@ -39,7 +39,7 @@ export async function extractionRoutes(app: FastifyInstance) {
 
     const rfxItems = await db.select().from(rfxLineItems).where(eq(rfxLineItems.id, line.rfxLineItemId));
     const rfxLine = rfxItems[0] || { quantity: line.normQuantity, unit: 'EA' as const };
-    let normalized = normalizeExtractedLine(raw, rfxLine).normalized;
+    let normalized = normalizeExtractedLine(raw, rfxLine as any).normalized;
     normalized = applyBuyerOverride(normalized, override, rfxLine.quantity, raw, rfxLine.unit as any);
 
     await db.update(extractedLines)

@@ -22,7 +22,7 @@ export function addFlagsFromValidation(
   item: ExtractionResult['lineItems'][0],
   rfxLineItem: { unit: string; quantity: number }
 ): FlagType[] {
-  const flags: FlagType[] = [...item.flags];
+  const flags: FlagType[] = [...(item.flags as FlagType[])];
 
   if (item.price === null) flags.push('missing_price');
   
@@ -47,8 +47,6 @@ export function addFlagsFromValidation(
   if (item.confidence.overall < 0.5) flags.push('low_confidence');
   
   if (item.matchState === 'UNMATCHED') flags.push('no_match_found');
-  if (item.matchState === 'REVIEW') flags.push('ambiguous_terms');
-  if (item.matchState === 'PROBABLE') flags.push('quantity_mismatch');
 
   return [...new Set(flags)];
 }
@@ -87,8 +85,6 @@ export function generateExtractionFlags(
   if (item.confidence.overall < 0.5) flags.push('low_confidence');
   
   if (item.matchState === 'UNMATCHED') flags.push('no_match_found');
-  if (item.matchState === 'REVIEW') flags.push('ambiguous_terms');
-  if (item.matchState === 'PROBABLE') flags.push('quantity_mismatch');
   
   if (item.quantity !== null && rfxLineItem && item.quantity !== rfxLineItem.quantity) {
     flags.push('quantity_mismatch');

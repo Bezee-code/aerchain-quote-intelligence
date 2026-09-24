@@ -123,7 +123,7 @@ export async function optimizeSplit(
   return {
     allocations,
     totalCost,
-    currency: 'USD',
+    currency: 'INR',
     unallocated,
     assumptions,
   };

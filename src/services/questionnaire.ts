@@ -25,8 +25,17 @@ export function evaluateEligibility(
 
     const strVal = String(val).trim().toUpperCase();
 
+    // Check unresolved / pending review first
+    if (val === null || val === undefined || strVal === 'UNRESOLVED' || strVal === 'PENDING') {
+      if (q.required) {
+        disqualificationReasons.push(`Unresolved: ${q.question} (pending commercial review)`);
+      }
+      continue;
+    }
+
     // Check boolean failure
-    if (q.disqualifyIfFalse && q.type === 'boolean') {
+    const qBool = q as { disqualifyIfFalse?: boolean; type: string; question: string };
+    if (qBool.disqualifyIfFalse && qBool.type === 'boolean') {
       const isAffirmative = val === true || strVal === 'TRUE' || strVal === 'YES';
       if (!isAffirmative) {
         disqualificationReasons.push(`Failed: ${q.question}`);
@@ -35,25 +44,12 @@ export function evaluateEligibility(
     }
 
     // Check number threshold failure
-    if (q.disqualifyIfExceeds && q.type === 'number') {
+    const qNum = q as { disqualifyIfExceeds?: boolean; type: string; question: string; maxValue?: number };
+    if (qNum.disqualifyIfExceeds && qNum.type === 'number') {
       const numVal = typeof val === 'number' ? val : parseFloat(String(val));
-      if (!isNaN(numVal) && q.maxValue !== undefined && numVal > q.maxValue) {
-        disqualificationReasons.push(`Failed: ${q.question} (value: ${numVal} days, ceiling: ${q.maxValue} days)`);
+      if (!isNaN(numVal) && qNum.maxValue !== undefined && numVal > qNum.maxValue) {
+        disqualificationReasons.push(`Failed: ${q.question} (value: ${numVal} days, ceiling: ${qNum.maxValue} days)`);
         continue;
-      }
-    }
-
-    // Check required unresolved/pending terms
-    if (q.required) {
-      if (
-        val === null ||
-        val === undefined ||
-        strVal === 'UNRESOLVED' ||
-        strVal === 'PENDING' ||
-        strVal === 'FALSE' ||
-        strVal === 'NO'
-      ) {
-        disqualificationReasons.push(`Failed/Unresolved: ${q.question}`);
       }
     }
   }
@@ -107,7 +103,7 @@ export async function saveQuestionnaireAnswers(
 
 export async function getVendorEligibility(vendorResponseId: string): Promise<VendorEligibility | null> {
   const result = await db.select().from(vendorEligibility).where(eq(vendorEligibility.vendorResponseId, vendorResponseId));
-  return result[0] || null;
+  return (result[0] as unknown as VendorEligibility) || null;
 }
 
 export async function getAllEligibility(rfxId: string): Promise<Record<string, boolean>> {

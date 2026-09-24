@@ -116,7 +116,7 @@ export async function extractVendorResponse(vendorResponseId: string): Promise<v
           }
         }
         
-        const rfxMatch = rfxLines.find(l => l.id === item.matchedRfxLineItemId || item.vendorLineRef);
+        const rfxMatch = rfxLines.find(l => l.id === item.matchedRfxLineItemId || l.id === item.vendorLineRef);
         item.flags = generateExtractionFlags(item, rfxMatch ? { unit: rfxMatch.unit, quantity: rfxMatch.quantity } : undefined);
       }
 
@@ -143,7 +143,11 @@ export async function extractVendorResponse(vendorResponseId: string): Promise<v
 
 async function getVendorResponse(id: string): Promise<VendorResponse | null> {
   const result = await db.select().from(vendorResponses).where(eq(vendorResponses.id, id));
-  return result[0] || null;
+  if (!result[0]) return null;
+  return {
+    ...result[0],
+    sourceDocuments: [],
+  } as unknown as VendorResponse;
 }
 
 export async function parseDocument(filePath: string, mimeType: string): Promise<ParsedDocument> {

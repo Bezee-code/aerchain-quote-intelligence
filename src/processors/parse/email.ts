@@ -12,7 +12,8 @@ export async function parseEmail(filePath: string): Promise<ParsedDocument> {
 
   const textParts: string[] = [];
   textParts.push(`From: ${parsed.from?.text || ''}`);
-  textParts.push(`To: ${parsed.to?.text || ''}`);
+  const toText = Array.isArray(parsed.to) ? parsed.to.map((t: any) => t.text).join(', ') : (parsed.to as any)?.text || '';
+  textParts.push(`To: ${toText}`);
   textParts.push(`Subject: ${parsed.subject || ''}`);
   textParts.push(`Date: ${parsed.date || ''}`);
   textParts.push('');

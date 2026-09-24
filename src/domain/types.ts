@@ -9,11 +9,14 @@ export type FlagType =
   | 'currency_mismatch'
   | 'unit_mismatch'
   | 'missing_price'
+  | 'missing_unit'
   | 'ambiguous_terms'
   | 'low_confidence'
   | 'unsupported_conversion'
   | 'quantity_mismatch'
   | 'no_match_found';
+
+export type MatchState = 'EXACT' | 'PROBABLE' | 'NONE';
 
 export type ExtractionStatus = 'auto' | 'reviewed' | 'corrected';
 
@@ -136,7 +139,7 @@ export interface RawExtractedValues {
 export interface NormalizedValues {
   pricePerBaseUnit: number | null;
   totalPrice: number | null;
-  currency: 'USD';
+  currency: Currency;
   unit: string;
   quantity: number;
   terms: CommercialTerms | null;
@@ -191,7 +194,7 @@ export interface NormalizedQuotation {
   extractedLineId: string;
   pricePerBaseUnit: number | null;
   totalPrice: number | null;
-  currency: 'USD';
+  currency: Currency;
   unit: string;
   terms: CommercialTerms | null;
   flags: FlagType[];
@@ -215,7 +218,7 @@ export interface SplitAllocation {
 export interface SplitResult {
   allocations: SplitAllocation[];
   totalCost: number;
-  currency: 'USD';
+  currency: Currency;
   unallocated: string[];
   assumptions: string[];
 }

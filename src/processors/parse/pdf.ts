@@ -21,8 +21,10 @@ export async function parsePdf(filePath: string): Promise<ParsedDocument> {
 
       for (let i = 1; i <= Math.min(pageCount, 10); i++) {
         const imagePath = await converter(i, { responseType: 'image' });
-        const { data: { text: ocrText, confidence } } = await worker.recognize(imagePath.path);
-        images.push({ pageNumber: i, text: ocrText, confidence });
+        if (imagePath.path) {
+          const { data: { text: ocrText, confidence } } = await worker.recognize(imagePath.path);
+          images.push({ pageNumber: i, text: ocrText, confidence });
+        }
       }
       await worker.terminate();
     } catch (e) {
