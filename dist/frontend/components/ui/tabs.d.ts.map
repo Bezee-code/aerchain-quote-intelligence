@@ -1,0 +1,1 @@
+{"version":3,"file":"tabs.d.ts","sourceRoot":"","sources":["../../../../src/frontend/components/ui/tabs.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAc,MAAM,OAAO,CAAC;AAGnD,eAAO,MAAM,IAAI,2HAIhB,CAAC;AAGF,eAAO,MAAM,QAAQ,2HAWpB,CAAC;AAGF,eAAO,MAAM,WAAW;WAA8E,MAAM;qDAa3G,CAAC;AAGF,eAAO,MAAM,WAAW;WAAwE,MAAM;kDAMrG,CAAC"}

@@ -1,0 +1,50 @@
+{
+  "id": "doc-1790144370387",
+  "text": "Sheet: Quotation\nLine Item\tDescription\tUnit Price\tCurrency\tQuantity\n1\tStainless Steel Ball Bearings 6205\t12.5\tUSD\t500\n2\tDeep Groove Ball Bearings 6206\t8.75\tUSD\t300\n3\tTapered Roller Bearings 30208\t15.25\tUSD\t150",
+  "tables": [
+    {
+      "headers": [
+        "Line Item",
+        "Description",
+        "Unit Price",
+        "Currency",
+        "Quantity"
+      ],
+      "rows": [
+        [
+          "1",
+          "Stainless Steel Ball Bearings 6205",
+          12.5,
+          "USD",
+          500
+        ],
+        [
+          "2",
+          "Deep Groove Ball Bearings 6206",
+          8.75,
+          "USD",
+          300
+        ],
+        [
+          "3",
+          "Tapered Roller Bearings 30208",
+          15.25,
+          "USD",
+          150
+        ]
+      ],
+      "pageNumber": 1,
+      "sheetName": "Quotation",
+      "rowCount": 3,
+      "colCount": 5
+    }
+  ],
+  "images": [],
+  "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "metadata": {
+    "sheetNames": [
+      "Quotation"
+    ],
+    "pageCount": 1
+  }
+}

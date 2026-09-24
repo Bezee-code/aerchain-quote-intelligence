@@ -1,0 +1,35 @@
+{
+  "id": "doc-1790134463347",
+  "text": "Vendor Quotation\n\nStainless Steel Ball Bearings 6205 - .50 each\n\nDeep Groove Ball Bearings 6206 - .75 each\n\nTapered Roller Bearings 30208 - .25 each\n\nPayment Terms: Net 30\n\nDelivery: FOB Destination\n\nItem\n\nDescription\n\nPrice\n\n1\n\nStainless Steel Ball Bearings 6205\n\n.50\n\n2\n\nDeep Groove Ball Bearings 6206\n\n.75\n\n",
+  "tables": [
+    {
+      "headers": [],
+      "rows": [
+        [
+          "Item",
+          "Description",
+          "Price"
+        ],
+        [
+          "1",
+          "Stainless Steel Ball Bearings 6205",
+          ".50"
+        ],
+        [
+          "2",
+          "Deep Groove Ball Bearings 6206",
+          ".75"
+        ]
+      ],
+      "pageNumber": 1,
+      "rowCount": 3,
+      "colCount": 3
+    }
+  ],
+  "images": [],
+  "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "metadata": {
+    "pageCount": 1,
+    "tableCount": 1
+  }
+}

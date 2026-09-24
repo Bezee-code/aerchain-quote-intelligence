@@ -1,0 +1,1 @@
+import '../../scripts/generate-corrugated-dataset.ts';

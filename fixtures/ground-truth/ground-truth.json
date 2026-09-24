@@ -1,0 +1,3595 @@
+[
+  {
+    "rfxLineItemId": "li-001",
+    "rfxLineNumber": 1,
+    "rfxDescription": "RSC 3-Ply Box 200x150x100mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-001",
+    "expectedRawPrice": 12.4,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 12.4,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 9"
+  },
+  {
+    "rfxLineItemId": "li-001",
+    "rfxLineNumber": 1,
+    "rfxDescription": "RSC 3-Ply Box 200x150x100mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-001",
+    "expectedRawPrice": 13.2,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 13.2,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 1"
+  },
+  {
+    "rfxLineItemId": "li-001",
+    "rfxLineNumber": 1,
+    "rfxDescription": "RSC 3-Ply Box 200x150x100mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-001",
+    "expectedRawPrice": 12.9,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 12.9,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 1"
+  },
+  {
+    "rfxLineItemId": "li-001",
+    "rfxLineNumber": 1,
+    "rfxDescription": "RSC 3-Ply Box 200x150x100mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-001",
+    "expectedRawPrice": 13.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 13.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 1"
+  },
+  {
+    "rfxLineItemId": "li-001",
+    "rfxLineNumber": 1,
+    "rfxDescription": "RSC 3-Ply Box 200x150x100mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-001",
+    "expectedRawPrice": 0.16,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 13.33,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 1"
+  },
+  {
+    "rfxLineItemId": "li-002",
+    "rfxLineNumber": 2,
+    "rfxDescription": "RSC 3-Ply Box 250x200x150mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-002",
+    "expectedRawPrice": 17.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 17.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 10"
+  },
+  {
+    "rfxLineItemId": "li-002",
+    "rfxLineNumber": 2,
+    "rfxDescription": "RSC 3-Ply Box 250x200x150mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-002",
+    "expectedRawPrice": 16.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 16.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 2"
+  },
+  {
+    "rfxLineItemId": "li-002",
+    "rfxLineNumber": 2,
+    "rfxDescription": "RSC 3-Ply Box 250x200x150mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-002",
+    "expectedRawPrice": 17.2,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 17.2,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 2"
+  },
+  {
+    "rfxLineItemId": "li-002",
+    "rfxLineNumber": 2,
+    "rfxDescription": "RSC 3-Ply Box 250x200x150mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-002",
+    "expectedRawPrice": 18,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 18,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 2"
+  },
+  {
+    "rfxLineItemId": "li-002",
+    "rfxLineNumber": 2,
+    "rfxDescription": "RSC 3-Ply Box 250x200x150mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-002",
+    "expectedRawPrice": 0.21,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 17.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 2"
+  },
+  {
+    "rfxLineItemId": "li-003",
+    "rfxLineNumber": 3,
+    "rfxDescription": "RSC 3-Ply Box 300x250x200mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-003",
+    "expectedRawPrice": 23.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 23.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 11"
+  },
+  {
+    "rfxLineItemId": "li-003",
+    "rfxLineNumber": 3,
+    "rfxDescription": "RSC 3-Ply Box 300x250x200mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-003",
+    "expectedRawPrice": 22.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 22.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 3"
+  },
+  {
+    "rfxLineItemId": "li-003",
+    "rfxLineNumber": 3,
+    "rfxDescription": "RSC 3-Ply Box 300x250x200mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-003",
+    "expectedRawPrice": 23.1,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 23.1,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 3"
+  },
+  {
+    "rfxLineItemId": "li-003",
+    "rfxLineNumber": 3,
+    "rfxDescription": "RSC 3-Ply Box 300x250x200mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-003",
+    "expectedRawPrice": 24,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 24,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 3"
+  },
+  {
+    "rfxLineItemId": "li-003",
+    "rfxLineNumber": 3,
+    "rfxDescription": "RSC 3-Ply Box 300x250x200mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-003",
+    "expectedRawPrice": 0.28,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 23.33,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 3"
+  },
+  {
+    "rfxLineItemId": "li-004",
+    "rfxLineNumber": 4,
+    "rfxDescription": "RSC 3-Ply Box 350x300x250mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-004",
+    "expectedRawPrice": 29.2,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 29.2,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 12"
+  },
+  {
+    "rfxLineItemId": "li-004",
+    "rfxLineNumber": 4,
+    "rfxDescription": "RSC 3-Ply Box 350x300x250mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-004",
+    "expectedRawPrice": 30.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 30.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 4"
+  },
+  {
+    "rfxLineItemId": "li-004",
+    "rfxLineNumber": 4,
+    "rfxDescription": "RSC 3-Ply Box 350x300x250mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-004",
+    "expectedRawPrice": 31,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 31,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 4"
+  },
+  {
+    "rfxLineItemId": "li-004",
+    "rfxLineNumber": 4,
+    "rfxDescription": "RSC 3-Ply Box 350x300x250mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-004",
+    "expectedRawPrice": 30,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 30,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 4"
+  },
+  {
+    "rfxLineItemId": "li-004",
+    "rfxLineNumber": 4,
+    "rfxDescription": "RSC 3-Ply Box 350x300x250mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-004",
+    "expectedRawPrice": 0.36,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 30,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 4"
+  },
+  {
+    "rfxLineItemId": "li-005",
+    "rfxLineNumber": 5,
+    "rfxDescription": "RSC 3-Ply Box 400x300x200mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-005",
+    "expectedRawPrice": 29.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 29.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 13"
+  },
+  {
+    "rfxLineItemId": "li-005",
+    "rfxLineNumber": 5,
+    "rfxDescription": "RSC 3-Ply Box 400x300x200mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-005",
+    "expectedRawPrice": 28.9,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 28.9,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 5"
+  },
+  {
+    "rfxLineItemId": "li-005",
+    "rfxLineNumber": 5,
+    "rfxDescription": "RSC 3-Ply Box 400x300x200mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-005",
+    "expectedRawPrice": 29.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 29.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 5"
+  },
+  {
+    "rfxLineItemId": "li-005",
+    "rfxLineNumber": 5,
+    "rfxDescription": "RSC 3-Ply Box 400x300x200mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-005",
+    "expectedRawPrice": 28.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 28.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms",
+      "low_confidence"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 5"
+  },
+  {
+    "rfxLineItemId": "li-005",
+    "rfxLineNumber": 5,
+    "rfxDescription": "RSC 3-Ply Box 400x300x200mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-005",
+    "expectedRawPrice": 0.35,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 29.17,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 5"
+  },
+  {
+    "rfxLineItemId": "li-006",
+    "rfxLineNumber": 6,
+    "rfxDescription": "RSC 3-Ply Box 450x350x300mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-006",
+    "expectedRawPrice": 38.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 38.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 14"
+  },
+  {
+    "rfxLineItemId": "li-006",
+    "rfxLineNumber": 6,
+    "rfxDescription": "RSC 3-Ply Box 450x350x300mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-006",
+    "expectedRawPrice": 39.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 39.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 6"
+  },
+  {
+    "rfxLineItemId": "li-006",
+    "rfxLineNumber": 6,
+    "rfxDescription": "RSC 3-Ply Box 450x350x300mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-006",
+    "expectedRawPrice": 40.2,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 40.2,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 6"
+  },
+  {
+    "rfxLineItemId": "li-006",
+    "rfxLineNumber": 6,
+    "rfxDescription": "RSC 3-Ply Box 450x350x300mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-006",
+    "expectedRawPrice": 39,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 39,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 6"
+  },
+  {
+    "rfxLineItemId": "li-006",
+    "rfxLineNumber": 6,
+    "rfxDescription": "RSC 3-Ply Box 450x350x300mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-006",
+    "expectedRawPrice": 0.48,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 40,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 6"
+  },
+  {
+    "rfxLineItemId": "li-007",
+    "rfxLineNumber": 7,
+    "rfxDescription": "RSC 5-Ply Heavy Box 300x250x250mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-007",
+    "expectedRawPrice": 46,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 46,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 15"
+  },
+  {
+    "rfxLineItemId": "li-007",
+    "rfxLineNumber": 7,
+    "rfxDescription": "RSC 5-Ply Heavy Box 300x250x250mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-007",
+    "expectedRawPrice": 45.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 45.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 7"
+  },
+  {
+    "rfxLineItemId": "li-007",
+    "rfxLineNumber": 7,
+    "rfxDescription": "RSC 5-Ply Heavy Box 300x250x250mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-007",
+    "expectedRawPrice": 43.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 43.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 7"
+  },
+  {
+    "rfxLineItemId": "li-007",
+    "rfxLineNumber": 7,
+    "rfxDescription": "RSC 5-Ply Heavy Box 300x250x250mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-007",
+    "expectedRawPrice": 44.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 44.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 7"
+  },
+  {
+    "rfxLineItemId": "li-007",
+    "rfxLineNumber": 7,
+    "rfxDescription": "RSC 5-Ply Heavy Box 300x250x250mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-007",
+    "expectedRawPrice": 0.54,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 45,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 7"
+  },
+  {
+    "rfxLineItemId": "li-008",
+    "rfxLineNumber": 8,
+    "rfxDescription": "RSC 5-Ply Heavy Box 400x300x300mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-008",
+    "expectedRawPrice": 58,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 58,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 16"
+  },
+  {
+    "rfxLineItemId": "li-008",
+    "rfxLineNumber": 8,
+    "rfxDescription": "RSC 5-Ply Heavy Box 400x300x300mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-008",
+    "expectedRawPrice": 55.2,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 55.2,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 8"
+  },
+  {
+    "rfxLineItemId": "li-008",
+    "rfxLineNumber": 8,
+    "rfxDescription": "RSC 5-Ply Heavy Box 400x300x300mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-008",
+    "expectedRawPrice": 56.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 56.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 8"
+  },
+  {
+    "rfxLineItemId": "li-008",
+    "rfxLineNumber": 8,
+    "rfxDescription": "RSC 5-Ply Heavy Box 400x300x300mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-008",
+    "expectedRawPrice": 57,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 57,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 8"
+  },
+  {
+    "rfxLineItemId": "li-008",
+    "rfxLineNumber": 8,
+    "rfxDescription": "RSC 5-Ply Heavy Box 400x300x300mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-008",
+    "expectedRawPrice": 0.68,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 56.67,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 8"
+  },
+  {
+    "rfxLineItemId": "li-009",
+    "rfxLineNumber": 9,
+    "rfxDescription": "RSC 5-Ply Heavy Box 450x400x350mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-009",
+    "expectedRawPrice": 69.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 69.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 17"
+  },
+  {
+    "rfxLineItemId": "li-009",
+    "rfxLineNumber": 9,
+    "rfxDescription": "RSC 5-Ply Heavy Box 450x400x350mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-009",
+    "expectedRawPrice": 71,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 71,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 9"
+  },
+  {
+    "rfxLineItemId": "li-009",
+    "rfxLineNumber": 9,
+    "rfxDescription": "RSC 5-Ply Heavy Box 450x400x350mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-009",
+    "expectedRawPrice": 67.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 67.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 9"
+  },
+  {
+    "rfxLineItemId": "li-009",
+    "rfxLineNumber": 9,
+    "rfxDescription": "RSC 5-Ply Heavy Box 450x400x350mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-009",
+    "expectedRawPrice": 68.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 68.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 9"
+  },
+  {
+    "rfxLineItemId": "li-009",
+    "rfxLineNumber": 9,
+    "rfxDescription": "RSC 5-Ply Heavy Box 450x400x350mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-009",
+    "expectedRawPrice": 0.83,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 69.17,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 9"
+  },
+  {
+    "rfxLineItemId": "li-010",
+    "rfxLineNumber": 10,
+    "rfxDescription": "RSC 5-Ply Heavy Box 500x400x400mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-010",
+    "expectedRawPrice": 82,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 82,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 18"
+  },
+  {
+    "rfxLineItemId": "li-010",
+    "rfxLineNumber": 10,
+    "rfxDescription": "RSC 5-Ply Heavy Box 500x400x400mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-010",
+    "expectedRawPrice": 84.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 84.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 10"
+  },
+  {
+    "rfxLineItemId": "li-010",
+    "rfxLineNumber": 10,
+    "rfxDescription": "RSC 5-Ply Heavy Box 500x400x400mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-010",
+    "expectedRawPrice": 83,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 83,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 10"
+  },
+  {
+    "rfxLineItemId": "li-010",
+    "rfxLineNumber": 10,
+    "rfxDescription": "RSC 5-Ply Heavy Box 500x400x400mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-010",
+    "expectedRawPrice": 2450,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "Per 100 Pcs",
+    "expectedNormalizedPrice": 24.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms",
+      "unit_mismatch"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 10"
+  },
+  {
+    "rfxLineItemId": "li-010",
+    "rfxLineNumber": 10,
+    "rfxDescription": "RSC 5-Ply Heavy Box 500x400x400mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-010",
+    "expectedRawPrice": 0.98,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 81.67,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 10"
+  },
+  {
+    "rfxLineItemId": "li-011",
+    "rfxLineNumber": 11,
+    "rfxDescription": "RSC 5-Ply Heavy Box 600x400x400mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-011",
+    "expectedRawPrice": 96,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 96,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 19"
+  },
+  {
+    "rfxLineItemId": "li-011",
+    "rfxLineNumber": 11,
+    "rfxDescription": "RSC 5-Ply Heavy Box 600x400x400mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-011",
+    "expectedRawPrice": 93.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 93.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 11"
+  },
+  {
+    "rfxLineItemId": "li-011",
+    "rfxLineNumber": 11,
+    "rfxDescription": "RSC 5-Ply Heavy Box 600x400x400mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-011",
+    "expectedRawPrice": 95,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 95,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 11"
+  },
+  {
+    "rfxLineItemId": "li-011",
+    "rfxLineNumber": 11,
+    "rfxDescription": "RSC 5-Ply Heavy Box 600x400x400mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-011",
+    "expectedRawPrice": 94,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 94,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 11"
+  },
+  {
+    "rfxLineItemId": "li-011",
+    "rfxLineNumber": 11,
+    "rfxDescription": "RSC 5-Ply Heavy Box 600x400x400mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-011",
+    "expectedRawPrice": 1.15,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 95.83,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 11"
+  },
+  {
+    "rfxLineItemId": "li-012",
+    "rfxLineNumber": 12,
+    "rfxDescription": "RSC 5-Ply Heavy Box 600x500x500mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-012",
+    "expectedRawPrice": 122,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 122,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 20"
+  },
+  {
+    "rfxLineItemId": "li-012",
+    "rfxLineNumber": 12,
+    "rfxDescription": "RSC 5-Ply Heavy Box 600x500x500mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-012",
+    "expectedRawPrice": 125,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 125,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 12"
+  },
+  {
+    "rfxLineItemId": "li-012",
+    "rfxLineNumber": 12,
+    "rfxDescription": "RSC 5-Ply Heavy Box 600x500x500mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-012",
+    "expectedRawPrice": 118.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 118.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 12"
+  },
+  {
+    "rfxLineItemId": "li-012",
+    "rfxLineNumber": 12,
+    "rfxDescription": "RSC 5-Ply Heavy Box 600x500x500mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-012",
+    "expectedRawPrice": 120,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 120,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 12"
+  },
+  {
+    "rfxLineItemId": "li-012",
+    "rfxLineNumber": 12,
+    "rfxDescription": "RSC 5-Ply Heavy Box 600x500x500mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-012",
+    "expectedRawPrice": 1.45,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 120.83,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 12"
+  },
+  {
+    "rfxLineItemId": "li-013",
+    "rfxLineNumber": 13,
+    "rfxDescription": "RSC 5-Ply Export Shipper 700x500x400mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-013",
+    "expectedRawPrice": 145,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 145,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 21"
+  },
+  {
+    "rfxLineItemId": "li-013",
+    "rfxLineNumber": 13,
+    "rfxDescription": "RSC 5-Ply Export Shipper 700x500x400mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-013",
+    "expectedRawPrice": 148,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 148,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 13"
+  },
+  {
+    "rfxLineItemId": "li-013",
+    "rfxLineNumber": 13,
+    "rfxDescription": "RSC 5-Ply Export Shipper 700x500x400mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-013",
+    "expectedRawPrice": 139,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 139,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 13"
+  },
+  {
+    "rfxLineItemId": "li-013",
+    "rfxLineNumber": 13,
+    "rfxDescription": "RSC 5-Ply Export Shipper 700x500x400mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-013",
+    "expectedRawPrice": 142,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 142,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 13"
+  },
+  {
+    "rfxLineItemId": "li-013",
+    "rfxLineNumber": 13,
+    "rfxDescription": "RSC 5-Ply Export Shipper 700x500x400mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-013",
+    "expectedRawPrice": 1.7,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 141.67,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 13"
+  },
+  {
+    "rfxLineItemId": "li-014",
+    "rfxLineNumber": 14,
+    "rfxDescription": "RSC 5-Ply Export Shipper 800x600x500mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-014",
+    "expectedRawPrice": 178,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 178,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 22"
+  },
+  {
+    "rfxLineItemId": "li-014",
+    "rfxLineNumber": 14,
+    "rfxDescription": "RSC 5-Ply Export Shipper 800x600x500mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-014",
+    "expectedRawPrice": 182,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 182,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 14"
+  },
+  {
+    "rfxLineItemId": "li-014",
+    "rfxLineNumber": 14,
+    "rfxDescription": "RSC 5-Ply Export Shipper 800x600x500mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-014",
+    "expectedRawPrice": 174,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 174,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 14"
+  },
+  {
+    "rfxLineItemId": "li-014",
+    "rfxLineNumber": 14,
+    "rfxDescription": "RSC 5-Ply Export Shipper 800x600x500mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-014",
+    "expectedRawPrice": 115,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": null,
+    "expectedNormalizedPrice": null,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "Unit not provided",
+    "expectedExceptions": [
+      "ambiguous_terms",
+      "missing_unit"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 14"
+  },
+  {
+    "rfxLineItemId": "li-014",
+    "rfxLineNumber": 14,
+    "rfxDescription": "RSC 5-Ply Export Shipper 800x600x500mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-014",
+    "expectedRawPrice": 2.05,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 170.83,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 14"
+  },
+  {
+    "rfxLineItemId": "li-015",
+    "rfxLineNumber": 15,
+    "rfxDescription": "RSC 7-Ply Triple Wall Box 600x500x500mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-015",
+    "expectedRawPrice": 245,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 245,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 23"
+  },
+  {
+    "rfxLineItemId": "li-015",
+    "rfxLineNumber": 15,
+    "rfxDescription": "RSC 7-Ply Triple Wall Box 600x500x500mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": null,
+    "expectedRawPrice": null,
+    "expectedRawCurrency": null,
+    "expectedRawUnit": null,
+    "expectedNormalizedPrice": null,
+    "expectedNormalizedCurrency": null,
+    "expectedNormalizedUnit": null,
+    "expectedExceptions": [
+      "missing_quotation"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf deliberate omission"
+  },
+  {
+    "rfxLineItemId": "li-015",
+    "rfxLineNumber": 15,
+    "rfxDescription": "RSC 7-Ply Triple Wall Box 600x500x500mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-015",
+    "expectedRawPrice": 248,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 248,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 15"
+  },
+  {
+    "rfxLineItemId": "li-015",
+    "rfxLineNumber": 15,
+    "rfxDescription": "RSC 7-Ply Triple Wall Box 600x500x500mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-015",
+    "expectedRawPrice": 239,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 239,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 15"
+  },
+  {
+    "rfxLineItemId": "li-015",
+    "rfxLineNumber": 15,
+    "rfxDescription": "RSC 7-Ply Triple Wall Box 600x500x500mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-015",
+    "expectedRawPrice": 2.8,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 233.33,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 15"
+  },
+  {
+    "rfxLineItemId": "li-016",
+    "rfxLineNumber": 16,
+    "rfxDescription": "RSC 7-Ply Triple Wall Box 800x600x600mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-016",
+    "expectedRawPrice": 340,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 340,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 24"
+  },
+  {
+    "rfxLineItemId": "li-016",
+    "rfxLineNumber": 16,
+    "rfxDescription": "RSC 7-Ply Triple Wall Box 800x600x600mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-016",
+    "expectedRawPrice": 355,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 355,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 16"
+  },
+  {
+    "rfxLineItemId": "li-016",
+    "rfxLineNumber": 16,
+    "rfxDescription": "RSC 7-Ply Triple Wall Box 800x600x600mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-016",
+    "expectedRawPrice": 348,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 348,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 16"
+  },
+  {
+    "rfxLineItemId": "li-016",
+    "rfxLineNumber": 16,
+    "rfxDescription": "RSC 7-Ply Triple Wall Box 800x600x600mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-016",
+    "expectedRawPrice": 330,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 330,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 16"
+  },
+  {
+    "rfxLineItemId": "li-016",
+    "rfxLineNumber": 16,
+    "rfxDescription": "RSC 7-Ply Triple Wall Box 800x600x600mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-016",
+    "expectedRawPrice": 4.1,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 341.67,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 16"
+  },
+  {
+    "rfxLineItemId": "li-017",
+    "rfxLineNumber": 17,
+    "rfxDescription": "RSC 7-Ply Bulk Master Carton 1000x800x700mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-017",
+    "expectedRawPrice": 465,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 465,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 25"
+  },
+  {
+    "rfxLineItemId": "li-017",
+    "rfxLineNumber": 17,
+    "rfxDescription": "RSC 7-Ply Bulk Master Carton 1000x800x700mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-017",
+    "expectedRawPrice": 480,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 480,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 17"
+  },
+  {
+    "rfxLineItemId": "li-017",
+    "rfxLineNumber": 17,
+    "rfxDescription": "RSC 7-Ply Bulk Master Carton 1000x800x700mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-017",
+    "expectedRawPrice": 470,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 470,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 17"
+  },
+  {
+    "rfxLineItemId": "li-017",
+    "rfxLineNumber": 17,
+    "rfxDescription": "RSC 7-Ply Bulk Master Carton 1000x800x700mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-017",
+    "expectedRawPrice": 455,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 455,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 17"
+  },
+  {
+    "rfxLineItemId": "li-017",
+    "rfxLineNumber": 17,
+    "rfxDescription": "RSC 7-Ply Bulk Master Carton 1000x800x700mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-017",
+    "expectedRawPrice": 5.4,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 450,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 17"
+  },
+  {
+    "rfxLineItemId": "li-018",
+    "rfxLineNumber": 18,
+    "rfxDescription": "Die-Cut Mailer Box 180x120x60mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-018",
+    "expectedRawPrice": 14.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 14.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 26"
+  },
+  {
+    "rfxLineItemId": "li-018",
+    "rfxLineNumber": 18,
+    "rfxDescription": "Die-Cut Mailer Box 180x120x60mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": null,
+    "expectedRawPrice": null,
+    "expectedRawCurrency": null,
+    "expectedRawUnit": null,
+    "expectedNormalizedPrice": null,
+    "expectedNormalizedCurrency": null,
+    "expectedNormalizedUnit": null,
+    "expectedExceptions": [
+      "missing_quotation"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf deliberate omission"
+  },
+  {
+    "rfxLineItemId": "li-018",
+    "rfxLineNumber": 18,
+    "rfxDescription": "Die-Cut Mailer Box 180x120x60mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-018",
+    "expectedRawPrice": 15.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 15.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 18"
+  },
+  {
+    "rfxLineItemId": "li-018",
+    "rfxLineNumber": 18,
+    "rfxDescription": "Die-Cut Mailer Box 180x120x60mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-018",
+    "expectedRawPrice": 15.2,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 15.2,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 18"
+  },
+  {
+    "rfxLineItemId": "li-018",
+    "rfxLineNumber": 18,
+    "rfxDescription": "Die-Cut Mailer Box 180x120x60mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-018",
+    "expectedRawPrice": 0.18,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 15,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 18"
+  },
+  {
+    "rfxLineItemId": "li-019",
+    "rfxLineNumber": 19,
+    "rfxDescription": "Die-Cut Mailer Box 240x160x80mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-019",
+    "expectedRawPrice": 19.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 19.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 27"
+  },
+  {
+    "rfxLineItemId": "li-019",
+    "rfxLineNumber": 19,
+    "rfxDescription": "Die-Cut Mailer Box 240x160x80mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-019",
+    "expectedRawPrice": 19.2,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 19.2,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 19"
+  },
+  {
+    "rfxLineItemId": "li-019",
+    "rfxLineNumber": 19,
+    "rfxDescription": "Die-Cut Mailer Box 240x160x80mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-019",
+    "expectedRawPrice": 20.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 20.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 19"
+  },
+  {
+    "rfxLineItemId": "li-019",
+    "rfxLineNumber": 19,
+    "rfxDescription": "Die-Cut Mailer Box 240x160x80mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-019",
+    "expectedRawPrice": 20,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 20,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 19"
+  },
+  {
+    "rfxLineItemId": "li-019",
+    "rfxLineNumber": 19,
+    "rfxDescription": "Die-Cut Mailer Box 240x160x80mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-019",
+    "expectedRawPrice": 0.24,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 20,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 19"
+  },
+  {
+    "rfxLineItemId": "li-020",
+    "rfxLineNumber": 20,
+    "rfxDescription": "Die-Cut Mailer Box 300x200x100mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-020",
+    "expectedRawPrice": 26.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 26.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 28"
+  },
+  {
+    "rfxLineItemId": "li-020",
+    "rfxLineNumber": 20,
+    "rfxDescription": "Die-Cut Mailer Box 300x200x100mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-020",
+    "expectedRawPrice": 27.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 27.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 20"
+  },
+  {
+    "rfxLineItemId": "li-020",
+    "rfxLineNumber": 20,
+    "rfxDescription": "Die-Cut Mailer Box 300x200x100mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-020",
+    "expectedRawPrice": 28,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 28,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 20"
+  },
+  {
+    "rfxLineItemId": "li-020",
+    "rfxLineNumber": 20,
+    "rfxDescription": "Die-Cut Mailer Box 300x200x100mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-020",
+    "expectedRawPrice": 27,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 27,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 20"
+  },
+  {
+    "rfxLineItemId": "li-020",
+    "rfxLineNumber": 20,
+    "rfxDescription": "Die-Cut Mailer Box 300x200x100mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-020",
+    "expectedRawPrice": 0.33,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 27.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 20"
+  },
+  {
+    "rfxLineItemId": "li-021",
+    "rfxLineNumber": 21,
+    "rfxDescription": "Die-Cut Mailer Box 360x260x120mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-021",
+    "expectedRawPrice": 38,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 38,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 29"
+  },
+  {
+    "rfxLineItemId": "li-021",
+    "rfxLineNumber": 21,
+    "rfxDescription": "Die-Cut Mailer Box 360x260x120mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-021",
+    "expectedRawPrice": 39.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 39.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 21"
+  },
+  {
+    "rfxLineItemId": "li-021",
+    "rfxLineNumber": 21,
+    "rfxDescription": "Die-Cut Mailer Box 360x260x120mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-021",
+    "expectedRawPrice": 38.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 38.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 21"
+  },
+  {
+    "rfxLineItemId": "li-021",
+    "rfxLineNumber": 21,
+    "rfxDescription": "Die-Cut Mailer Box 360x260x120mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-021",
+    "expectedRawPrice": 36.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 36.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 21"
+  },
+  {
+    "rfxLineItemId": "li-021",
+    "rfxLineNumber": 21,
+    "rfxDescription": "Die-Cut Mailer Box 360x260x120mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-021",
+    "expectedRawPrice": 0.45,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 37.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 21"
+  },
+  {
+    "rfxLineItemId": "li-022",
+    "rfxLineNumber": 22,
+    "rfxDescription": "Self-Locking Folder Box 420x300x80mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-022",
+    "expectedRawPrice": 32,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 32,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 30"
+  },
+  {
+    "rfxLineItemId": "li-022",
+    "rfxLineNumber": 22,
+    "rfxDescription": "Self-Locking Folder Box 420x300x80mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-022",
+    "expectedRawPrice": 33.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 33.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 22"
+  },
+  {
+    "rfxLineItemId": "li-022",
+    "rfxLineNumber": 22,
+    "rfxDescription": "Self-Locking Folder Box 420x300x80mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-022",
+    "expectedRawPrice": 30.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 30.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 22"
+  },
+  {
+    "rfxLineItemId": "li-022",
+    "rfxLineNumber": 22,
+    "rfxDescription": "Self-Locking Folder Box 420x300x80mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-022",
+    "expectedRawPrice": 31.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 31.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 22"
+  },
+  {
+    "rfxLineItemId": "li-022",
+    "rfxLineNumber": 22,
+    "rfxDescription": "Self-Locking Folder Box 420x300x80mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-022",
+    "expectedRawPrice": 0.38,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 31.67,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 22"
+  },
+  {
+    "rfxLineItemId": "li-023",
+    "rfxLineNumber": 23,
+    "rfxDescription": "Corrugated Layer Pad 1150x950mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-023",
+    "expectedRawPrice": 22,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 22,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 31"
+  },
+  {
+    "rfxLineItemId": "li-023",
+    "rfxLineNumber": 23,
+    "rfxDescription": "Corrugated Layer Pad 1150x950mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-023",
+    "expectedRawPrice": 20.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 20.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 23"
+  },
+  {
+    "rfxLineItemId": "li-023",
+    "rfxLineNumber": 23,
+    "rfxDescription": "Corrugated Layer Pad 1150x950mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-023",
+    "expectedRawPrice": 21.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 21.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 23"
+  },
+  {
+    "rfxLineItemId": "li-023",
+    "rfxLineNumber": 23,
+    "rfxDescription": "Corrugated Layer Pad 1150x950mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-023",
+    "expectedRawPrice": 21,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 21,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 23"
+  },
+  {
+    "rfxLineItemId": "li-023",
+    "rfxLineNumber": 23,
+    "rfxDescription": "Corrugated Layer Pad 1150x950mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-023",
+    "expectedRawPrice": 0.26,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 21.67,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 23"
+  },
+  {
+    "rfxLineItemId": "li-024",
+    "rfxLineNumber": 24,
+    "rfxDescription": "Corrugated Layer Pad 1150x950mm 5-Ply",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-024",
+    "expectedRawPrice": 38.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 38.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 32"
+  },
+  {
+    "rfxLineItemId": "li-024",
+    "rfxLineNumber": 24,
+    "rfxDescription": "Corrugated Layer Pad 1150x950mm 5-Ply",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-024",
+    "expectedRawPrice": 39,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 39,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 24"
+  },
+  {
+    "rfxLineItemId": "li-024",
+    "rfxLineNumber": 24,
+    "rfxDescription": "Corrugated Layer Pad 1150x950mm 5-Ply",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-024",
+    "expectedRawPrice": 38,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 38,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 24"
+  },
+  {
+    "rfxLineItemId": "li-024",
+    "rfxLineNumber": 24,
+    "rfxDescription": "Corrugated Layer Pad 1150x950mm 5-Ply",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-024",
+    "expectedRawPrice": 37,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 37,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 24"
+  },
+  {
+    "rfxLineItemId": "li-024",
+    "rfxLineNumber": 24,
+    "rfxDescription": "Corrugated Layer Pad 1150x950mm 5-Ply",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-024",
+    "expectedRawPrice": 0.44,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 36.67,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 24"
+  },
+  {
+    "rfxLineItemId": "li-025",
+    "rfxLineNumber": 25,
+    "rfxDescription": "12-Cell Corrugated Partition Set",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-025",
+    "expectedRawPrice": 28,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "SET",
+    "expectedNormalizedPrice": 28,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "SET",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 33"
+  },
+  {
+    "rfxLineItemId": "li-025",
+    "rfxLineNumber": 25,
+    "rfxDescription": "12-Cell Corrugated Partition Set",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-025",
+    "expectedRawPrice": 29.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "SET",
+    "expectedNormalizedPrice": 29.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "SET",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 25"
+  },
+  {
+    "rfxLineItemId": "li-025",
+    "rfxLineNumber": 25,
+    "rfxDescription": "12-Cell Corrugated Partition Set",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-025",
+    "expectedRawPrice": 26.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "SET",
+    "expectedNormalizedPrice": 26.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "SET",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 25"
+  },
+  {
+    "rfxLineItemId": "li-025",
+    "rfxLineNumber": 25,
+    "rfxDescription": "12-Cell Corrugated Partition Set",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-025",
+    "expectedRawPrice": 27.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "SET",
+    "expectedNormalizedPrice": 27.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "SET",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 25"
+  },
+  {
+    "rfxLineItemId": "li-025",
+    "rfxLineNumber": 25,
+    "rfxDescription": "12-Cell Corrugated Partition Set",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-025",
+    "expectedRawPrice": 0.33,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "SET",
+    "expectedNormalizedPrice": 27.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "SET",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 25"
+  },
+  {
+    "rfxLineItemId": "li-026",
+    "rfxLineNumber": 26,
+    "rfxDescription": "24-Cell Corrugated Partition Set",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-026",
+    "expectedRawPrice": 45,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "SET",
+    "expectedNormalizedPrice": 45,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "SET",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 34"
+  },
+  {
+    "rfxLineItemId": "li-026",
+    "rfxLineNumber": 26,
+    "rfxDescription": "24-Cell Corrugated Partition Set",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-026",
+    "expectedRawPrice": 47,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "SET",
+    "expectedNormalizedPrice": 47,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "SET",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 26"
+  },
+  {
+    "rfxLineItemId": "li-026",
+    "rfxLineNumber": 26,
+    "rfxDescription": "24-Cell Corrugated Partition Set",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-026",
+    "expectedRawPrice": 46,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "SET",
+    "expectedNormalizedPrice": 46,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "SET",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 26"
+  },
+  {
+    "rfxLineItemId": "li-026",
+    "rfxLineNumber": 26,
+    "rfxDescription": "24-Cell Corrugated Partition Set",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-026",
+    "expectedRawPrice": 44,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "SET",
+    "expectedNormalizedPrice": 44,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "SET",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 26"
+  },
+  {
+    "rfxLineItemId": "li-026",
+    "rfxLineNumber": 26,
+    "rfxDescription": "24-Cell Corrugated Partition Set",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-026",
+    "expectedRawPrice": 0.52,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "SET",
+    "expectedNormalizedPrice": 43.33,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "SET",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 26"
+  },
+  {
+    "rfxLineItemId": "li-027",
+    "rfxLineNumber": 27,
+    "rfxDescription": "Heavy Duty Pallet Box with Wooden Skids",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-027",
+    "expectedRawPrice": 1250,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 1250,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 35"
+  },
+  {
+    "rfxLineItemId": "li-027",
+    "rfxLineNumber": 27,
+    "rfxDescription": "Heavy Duty Pallet Box with Wooden Skids",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-027",
+    "expectedRawPrice": 1320,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 1320,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 27"
+  },
+  {
+    "rfxLineItemId": "li-027",
+    "rfxLineNumber": 27,
+    "rfxDescription": "Heavy Duty Pallet Box with Wooden Skids",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-027",
+    "expectedRawPrice": 1280,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 1280,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 27"
+  },
+  {
+    "rfxLineItemId": "li-027",
+    "rfxLineNumber": 27,
+    "rfxDescription": "Heavy Duty Pallet Box with Wooden Skids",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": null,
+    "expectedRawPrice": null,
+    "expectedRawCurrency": null,
+    "expectedRawUnit": null,
+    "expectedNormalizedPrice": null,
+    "expectedNormalizedCurrency": null,
+    "expectedNormalizedUnit": null,
+    "expectedExceptions": [
+      "missing_quotation"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL"
+    },
+    "evidenceLocation": "vendor-d-vardhman.png omitted bulk item"
+  },
+  {
+    "rfxLineItemId": "li-027",
+    "rfxLineNumber": 27,
+    "rfxDescription": "Heavy Duty Pallet Box with Wooden Skids",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-027",
+    "expectedRawPrice": 14.5,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 1208.33,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 27"
+  },
+  {
+    "rfxLineItemId": "li-028",
+    "rfxLineNumber": 28,
+    "rfxDescription": "Octabin Bulk Chemical Container",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-028",
+    "expectedRawPrice": 1650,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 1650,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 36"
+  },
+  {
+    "rfxLineItemId": "li-028",
+    "rfxLineNumber": 28,
+    "rfxDescription": "Octabin Bulk Chemical Container",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": null,
+    "expectedRawPrice": null,
+    "expectedRawCurrency": null,
+    "expectedRawUnit": null,
+    "expectedNormalizedPrice": null,
+    "expectedNormalizedCurrency": null,
+    "expectedNormalizedUnit": null,
+    "expectedExceptions": [
+      "missing_quotation"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf deliberate omission"
+  },
+  {
+    "rfxLineItemId": "li-028",
+    "rfxLineNumber": 28,
+    "rfxDescription": "Octabin Bulk Chemical Container",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-028",
+    "expectedRawPrice": 1680,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 1680,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 28"
+  },
+  {
+    "rfxLineItemId": "li-028",
+    "rfxLineNumber": 28,
+    "rfxDescription": "Octabin Bulk Chemical Container",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": null,
+    "expectedRawPrice": null,
+    "expectedRawCurrency": null,
+    "expectedRawUnit": null,
+    "expectedNormalizedPrice": null,
+    "expectedNormalizedCurrency": null,
+    "expectedNormalizedUnit": null,
+    "expectedExceptions": [
+      "missing_quotation"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL"
+    },
+    "evidenceLocation": "vendor-d-vardhman.png omitted bulk item"
+  },
+  {
+    "rfxLineItemId": "li-028",
+    "rfxLineNumber": 28,
+    "rfxDescription": "Octabin Bulk Chemical Container",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-028",
+    "expectedRawPrice": 20.5,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "EA",
+    "expectedNormalizedPrice": 1708.33,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "EA",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 28"
+  },
+  {
+    "rfxLineItemId": "li-029",
+    "rfxLineNumber": 29,
+    "rfxDescription": "Corrugated Corner Edge Protectors 50x50x1000mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-029",
+    "expectedRawPrice": 18.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "PC",
+    "expectedNormalizedPrice": 18.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "PC",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 37"
+  },
+  {
+    "rfxLineItemId": "li-029",
+    "rfxLineNumber": 29,
+    "rfxDescription": "Corrugated Corner Edge Protectors 50x50x1000mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-029",
+    "expectedRawPrice": 19,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "PC",
+    "expectedNormalizedPrice": 19,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "PC",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 29"
+  },
+  {
+    "rfxLineItemId": "li-029",
+    "rfxLineNumber": 29,
+    "rfxDescription": "Corrugated Corner Edge Protectors 50x50x1000mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-029",
+    "expectedRawPrice": 18,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "PC",
+    "expectedNormalizedPrice": 18,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "PC",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 29"
+  },
+  {
+    "rfxLineItemId": "li-029",
+    "rfxLineNumber": 29,
+    "rfxDescription": "Corrugated Corner Edge Protectors 50x50x1000mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-029",
+    "expectedRawPrice": 16.8,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "PC",
+    "expectedNormalizedPrice": 16.8,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "PC",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 29"
+  },
+  {
+    "rfxLineItemId": "li-029",
+    "rfxLineNumber": 29,
+    "rfxDescription": "Corrugated Corner Edge Protectors 50x50x1000mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-029",
+    "expectedRawPrice": 0.22,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "PC",
+    "expectedNormalizedPrice": 18.33,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "PC",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 29"
+  },
+  {
+    "rfxLineItemId": "li-030",
+    "rfxLineNumber": 30,
+    "rfxDescription": "Corrugated Corner Edge Protectors 75x75x1500mm",
+    "vendorId": "vendor-001",
+    "vendorName": "Apex Packaging Solutions Pvt Ltd",
+    "expectedMatch": "li-030",
+    "expectedRawPrice": 34,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "PC",
+    "expectedNormalizedPrice": 34,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "PC",
+    "expectedExceptions": [],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-a-apex.xlsx sheet \"Quotation\" row 38"
+  },
+  {
+    "rfxLineItemId": "li-030",
+    "rfxLineNumber": 30,
+    "rfxDescription": "Corrugated Corner Edge Protectors 75x75x1500mm",
+    "vendorId": "vendor-002",
+    "vendorName": "PackRight Corrugators Ltd",
+    "expectedMatch": "li-030",
+    "expectedRawPrice": 35.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "PC",
+    "expectedNormalizedPrice": 35.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "PC",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-b-packright.pdf item 30"
+  },
+  {
+    "rfxLineItemId": "li-030",
+    "rfxLineNumber": 30,
+    "rfxDescription": "Corrugated Corner Edge Protectors 75x75x1500mm",
+    "vendorId": "vendor-003",
+    "vendorName": "EcoKraft Paper & Packaging LLP",
+    "expectedMatch": "li-030",
+    "expectedRawPrice": 33.5,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "PC",
+    "expectedNormalizedPrice": 33.5,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "PC",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": true,
+      "status": "PASS",
+      "reasons": []
+    },
+    "evidenceLocation": "vendor-c-ecokraft.docx table row 30"
+  },
+  {
+    "rfxLineItemId": "li-030",
+    "rfxLineNumber": 30,
+    "rfxDescription": "Corrugated Corner Edge Protectors 75x75x1500mm",
+    "vendorId": "vendor-004",
+    "vendorName": "Vardhman Cartons & Containers",
+    "expectedMatch": "li-030",
+    "expectedRawPrice": 32,
+    "expectedRawCurrency": "INR",
+    "expectedRawUnit": "PC",
+    "expectedNormalizedPrice": 32,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "PC",
+    "expectedExceptions": [
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "FAIL",
+      "reasons": [
+        "Failed: Is the vendor ISO 9001 certified?",
+        "Failed: What is the delivery lead time in days? (value: 25, max: 14)",
+        "Failed: Does the vendor have monthly converting capacity of at least 500 MT?"
+      ]
+    },
+    "evidenceLocation": "vendor-d-vardhman.png row 30"
+  },
+  {
+    "rfxLineItemId": "li-030",
+    "rfxLineNumber": 30,
+    "rfxDescription": "Corrugated Corner Edge Protectors 75x75x1500mm",
+    "vendorId": "vendor-005",
+    "vendorName": "Global Star Packaging International LLC",
+    "expectedMatch": "li-030",
+    "expectedRawPrice": 0.38,
+    "expectedRawCurrency": "USD",
+    "expectedRawUnit": "PC",
+    "expectedNormalizedPrice": 31.67,
+    "expectedNormalizedCurrency": "INR",
+    "expectedNormalizedUnit": "PC",
+    "expectedExceptions": [
+      "currency_mismatch",
+      "ambiguous_terms"
+    ],
+    "expectedQuestionnaire": {
+      "isEligible": false,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "Unresolved: Does the vendor accept commercial credit payment terms (Net 30 / Net 60)? (pending commercial review)"
+      ]
+    },
+    "evidenceLocation": "vendor-e-globalstar.eml + GlobalStar_USD_Quotation.xlsx row 30"
+  }
+]
